@@ -336,7 +336,7 @@ def test_acertijo_5(run_bash_script, tmp_files, input_file_name, output_file_nam
     (8, 40320),
     (10, 3628800),
     (12, 479001600),
-    (20, 479001600),
+    (20, 2432902008176640000),
 ])
 def test_acertijo_5_shuld_return_factorial_when_mabel_is_an_even_number(run_bash_script, tmp_files, mabel_count, factorial):
     input_file = tmp_files('papiro.txt', "")
